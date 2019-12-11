@@ -16,8 +16,23 @@
 1. [Development](#development)
 
 ## Usage
+Run the following commands in terminal:
 
-> Some usage instructions
+
+Install all other dependencies:
+
+```sh
+ npm install //To install dependencies
+```
+```sh
+  mysql -u student -p < schema.sql  // password is student
+```
+
+```sh
+  npm run seed //To seed database
+  npm run start //To run server on http://localhost:3002/
+```
+
 
 ## Requirements
 
