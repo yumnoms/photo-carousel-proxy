@@ -37,10 +37,5 @@ app.get('/api/carousel/:businessId/', (req, res) => {
 
 
 });
-app.get('/', (req, res) => {
 
-  res.send(200);
-
-
-});
 module.exports = app;
